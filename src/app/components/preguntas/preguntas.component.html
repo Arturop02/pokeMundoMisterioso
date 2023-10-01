@@ -1,0 +1,330 @@
+<form [formGroup]="pokeform" (ngSubmit)="finalizar()">
+
+  <div>
+    <label>
+      Tienes capacidad de concentracion
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta1" value=1>No
+      <input type="radio" formControlName="pregunta1" value=2>No lo se
+      <input type="radio" formControlName="pregunta1" value=3>Raramente
+      <input type="radio" formControlName="pregunta1" value=4>Mayormente si
+      <input type="radio" formControlName="pregunta1" value=5>Si
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Si un señor extraño te da elegir entre 2 regalos, uno grande y uno pequeño, Cual eliges?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta2" value=5>Por que aceptaria?
+      <input type="radio" formControlName="pregunta2" value=4>Por favor, llamen a la policia
+      <input type="radio" formControlName="pregunta2" value=2>El grande
+      <input type="radio" formControlName="pregunta2" value=3>El pequeño
+      <input type="radio" formControlName="pregunta2" value=1>Señor, deje de seguirme
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Un amigo te da algo que se te habia olvidado. Como se lo agradeces?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta3" value=4>Con que tu lo habias escondido, mañoso
+      <input type="radio" formControlName="pregunta3" value=1>Muchas gracias
+      <input type="radio" formControlName="pregunta3" value=5>Maldecido ratero color crimen
+      <input type="radio" formControlName="pregunta3" value=3>Oh, vaya, gracias
+      <input type="radio" formControlName="pregunta3" value=2>Gracias
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Vas por la calle y ves una cartera en el suelo
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta4" value=4>Matanga
+      <input type="radio" formControlName="pregunta4" value=1>La dejo ahi
+      <input type="radio" formControlName="pregunta4" value=2>Buscar al dueño y entregarla
+      <input type="radio" formControlName="pregunta4" value=3>Entregarla a las autoridades
+      <input type="radio" formControlName="pregunta4" value=5>Buscar al dueño y entregarsela, pero, sin dinero
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Nos invaden los extraterrestres, que hacemos?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta5" value=1>Pelear
+      <input type="radio" formControlName="pregunta5" value=3>Hacerme bolita
+      <input type="radio" formControlName="pregunta5" value=5>Auxilio, llamen a la policia, me estan matando, aaaaaaaaaa
+      <input type="radio" formControlName="pregunta5" value=4>Correr
+      <input type="radio" formControlName="pregunta5" value=2>Manos le haran falta...
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Las quesadillas van con queso?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta6" value=5>Por supuesto
+      <input type="radio" formControlName="pregunta6" value=2>Soy chilango
+      <input type="radio" formControlName="pregunta6" value=4>Depende
+      <input type="radio" formControlName="pregunta6" value=1>Claro
+      <input type="radio" formControlName="pregunta6" value=3>No
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Que bebida tomas al almorzar
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta7" value=1>Refresco de sabor
+      <input type="radio" formControlName="pregunta7" value=3>Agua de sobre
+      <input type="radio" formControlName="pregunta7" value=5>Agua
+      <input type="radio" formControlName="pregunta7" value=4>Coca
+      <input type="radio" formControlName="pregunta7" value=2>Agua natural
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Somebody...
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta8" value=4>to loveeeeeee
+      <input type="radio" formControlName="pregunta8" value=1>Alguien
+      <input type="radio" formControlName="pregunta8" value=5>That i use to know
+      <input type="radio" formControlName="pregunta8" value=3>In broklynn
+      <input type="radio" formControlName="pregunta8" value=2>Algun cuerpo
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Por que te tatuatis?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta9" value=5>Pos nomas
+      <input type="radio" formControlName="pregunta9" value=1>Por que te pintatis
+      <input type="radio" formControlName="pregunta9" value=2>Pos nomas
+      <input type="radio" formControlName="pregunta9" value=3>Por que te rayatis
+      <input type="radio" formControlName="pregunta9" value=4>Pos nomas
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Que desayunas por las mañanas?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta10" value=4>Chocomilk
+      <input type="radio" formControlName="pregunta10" value=3>Unas costillas de brontosaurio BBQ
+      <input type="radio" formControlName="pregunta10" value=5>Huveo con jugo
+      <input type="radio" formControlName="pregunta10" value=2>Desayuno?
+      <input type="radio" formControlName="pregunta10" value=1>Pan tieso de ayer
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Si te ofrecen drogas te van a decir...
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta11" value=3>Que se siente bien padre
+      <input type="radio" formControlName="pregunta11" value=2>Que te vas a reir
+      <input type="radio" formControlName="pregunta11" value=1>No es ciertooooo
+      <input type="radio" formControlName="pregunta11" value=4>No hagas caso
+      <input type="radio" formControlName="pregunta11" value=5>Saca la mota
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Que tuvo mas impacto?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta12" value=2>El renacimiento
+      <input type="radio" formControlName="pregunta12" value=1>La toalla del mojado
+      <input type="radio" formControlName="pregunta12" value=3>El señor que toca boleros en el parque
+      <input type="radio" formControlName="pregunta12" value=4>Eso tilin
+      <input type="radio" formControlName="pregunta12" value=5>El minion tarolero
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Eres una persona alegre
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta13" value=1>No
+      <input type="radio" formControlName="pregunta13" value=5>Si
+      <input type="radio" formControlName="pregunta13" value=4>Trato de mejorar
+      <input type="radio" formControlName="pregunta13" value=2>Me quiero matar
+      <input type="radio" formControlName="pregunta13" value=3>Cada dia el apocalipsis parece una esperanza en lugar de un castigo
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Si un amigo te dispara en la pierna, que harias?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta14" value=4>Denunciar
+      <input type="radio" formControlName="pregunta14" value=5>Tenia un amigo
+      <input type="radio" formControlName="pregunta14" value=1>Son cosas que pasan, todos cometemos errores
+      <input type="radio" formControlName="pregunta14" value=2>Nada, no tengo enemigos
+      <input type="radio" formControlName="pregunta14" value=3>Le disparo en la nuca
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Te consideras inteligente?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta15" value=1>Si
+      <input type="radio" formControlName="pregunta15" value=4>No, soy humilde
+      <input type="radio" formControlName="pregunta15" value=3>Si, pero probablemente exista alguien mejor que yo
+      <input type="radio" formControlName="pregunta15" value=5>Llamenme Noe por que acarreo puro animal
+      <input type="radio" formControlName="pregunta15" value=2>No lo creo
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Juegas con tu imaginacion
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta16" value=4>Disocio muy facilmente
+      <input type="radio" formControlName="pregunta16" value=1>Si
+      <input type="radio" formControlName="pregunta16" value=5>No
+      <input type="radio" formControlName="pregunta16" value=3>Que tengo? 5 años?
+      <input type="radio" formControlName="pregunta16" value=2>Me pierdo en mis pensamientos
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Alguien te tiende la mano desde dentro del retrete, que haces?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta17" value=5>Ovrigado voce un amigo
+      <input type="radio" formControlName="pregunta17" value=4>Estrecharle la mano
+      <input type="radio" formControlName="pregunta17" value=1>Gritar
+      <input type="radio" formControlName="pregunta17" value=3>Esta pelicula ya la vi
+      <input type="radio" formControlName="pregunta17" value=2>Darle una patada
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Te encierran en una habitacion oscura y sucia, que harias?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta18" value=4>Hacerme bolita
+      <input type="radio" formControlName="pregunta18" value=3>Llorar
+      <input type="radio" formControlName="pregunta18" value=1>Que nadie limpia en esta casa?
+      <input type="radio" formControlName="pregunta18" value=5>Auxilioooooooooo
+      <input type="radio" formControlName="pregunta18" value=2>Patear la puerta
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Sabes pedir perdon cuando te equivocas
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta19" value=1>No
+      <input type="radio" formControlName="pregunta19" value=3>Me gustaria poder
+      <input type="radio" formControlName="pregunta19" value=2>Que pidan perdon los demas
+      <input type="radio" formControlName="pregunta19" value=4>Si
+      <input type="radio" formControlName="pregunta19" value=5>Lo intento
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Como lidias con el sentimiento constante de que tu vida no tiene un proposito y solo es una perdida de tiempo,
+      si es que existe un dios, solo fue una broma de mal gusto el darte la vida
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta20" value=4>Me das miedo
+      <input type="radio" formControlName="pregunta20" value=1>No lo pensaba, ahora si
+      <input type="radio" formControlName="pregunta20" value=5>Ve al psicologo por favor
+      <input type="radio" formControlName="pregunta20" value=3>En serio, busca ayuda
+      <input type="radio" formControlName="pregunta20" value=2>Pan
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Estas frente al presidente, que le dices?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta21" value=5>Hola, adios
+      <input type="radio" formControlName="pregunta21" value=1>Arriba los corridos tumbados
+      <input type="radio" formControlName="pregunta21" value=4>El 11 de septiembre habra un atentado terrorista
+      <input type="radio" formControlName="pregunta21" value=2>Tiene cocas?
+      <input type="radio" formControlName="pregunta21" value=3>Si nos va a dar beca o nel?
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Duermes bien?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta22" value=4>Si
+      <input type="radio" formControlName="pregunta22" value=1>No, tengo insomnio
+      <input type="radio" formControlName="pregunta22" value=5>Me duermo a todas horas
+      <input type="radio" formControlName="pregunta22" value=3>Dormir?
+      <input type="radio" formControlName="pregunta22" value=2>No
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Te sientes sol@ cuando no hay nadie contigo
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta23" value=1>Siento que me observan
+      <input type="radio" formControlName="pregunta23" value=2>No
+      <input type="radio" formControlName="pregunta23" value=3>Si, me disgusta
+      <input type="radio" formControlName="pregunta23" value=4>Quiza
+      <input type="radio" formControlName="pregunta23" value=5>Si
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Por que deberiamos darte un pokemon?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta24" value=5>Por que no soy yucateco
+      <input type="radio" formControlName="pregunta24" value=4>Por que hice el test
+      <input type="radio" formControlName="pregunta24" value=3>Por que el PRI robo mas
+      <input type="radio" formControlName="pregunta24" value=2>Por que esto con Fabian no pasaba
+      <input type="radio" formControlName="pregunta24" value=1>Por Odin y por Asgard
+    </div>
+  </div>
+
+  <div>
+    <label>
+      Estas listo para saber que pokemon eres?
+    </label>
+    <div>
+      <input type="radio" formControlName="pregunta25" value=1>Si
+      <input type="radio" formControlName="pregunta25" value=2>SIIIII
+      <input type="radio" formControlName="pregunta25" value=3>Yes
+      <input type="radio" formControlName="pregunta25" value=4>Of course
+      <input type="radio" formControlName="pregunta25" value=5>No era para saber que quesadilla seria?
+    </div>
+  </div>
+
+  <button type="submit">Finalizar</button>
+</form>
